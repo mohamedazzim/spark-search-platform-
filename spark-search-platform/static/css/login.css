@@ -1,0 +1,83 @@
+/* login.css */
+
+/* Body background and text */
+
+body.login-page {
+    background-color: #333 !important; /* Dark gray background */
+    color: white !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin-left: 75px;
+    margin-top: 50px;
+  }
+  /* Centered login container */
+  .login-container {
+    width: 400px;
+    margin: 100px auto;
+    background: #444;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+.logo-container{
+    text-align: center;
+}
+  
+.techwrk-logo{
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+  }
+  
+  
+  /* Blue heading */
+  .login-heading {
+    text-align: center;
+    color: #2196F3;
+    margin-bottom: 20px;
+  }
+  
+  /* Labels */
+  .login-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Input fields */
+  .login-input {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    color: #2196F3;
+    background-color: white;
+    font-size: 1em;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 75px;
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: opacity 0.3s ease;
+  }
+  .login-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Login message (error/success) */
+  .login-message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #2196F3; /* Blue by default */
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Spark Search Platform</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body class="login-page">
+  
+  <div class="login-container">
+    <div class="logo-container">
+      <img src="{{ url_for('static', filename='images/techwrk.png') }}" class="techwrk-logo" alt="Spark Search Platform Logo">
+    </div>
+  <h1 class="login-heading">Login to Spark Search Platform</h1>
+    <form id="login-form">
+      <label class="login-label" for="username">Username</label>
+      <input type="text" id="username" name="username" class="login-input" required>
+      
+      <label class="login-label" for="password">Password</label>
+      <input type="password" id="password" name="password" class="login-input" required>
+      
+      <button type="submit" id="login-button" class="login-button">Login</button>
+    </form>
+    <div id="login-message" class="login-message"></div>
+  </div>
+  <script src="{{ url_for('static', filename='js/login.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
