@@ -1,1 +1,0 @@
-# spark-search-platform-
